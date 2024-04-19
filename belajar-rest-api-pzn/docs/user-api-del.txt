@@ -1,0 +1,39 @@
+{
+    "openapi": "3.0.3",
+    "info": {
+        "title": "User API",
+        "description": "User API",
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "http://localhost:8000"
+        }
+    ],
+    "paths": {
+        "api/users": {
+            "post": {
+                "description": "Register a new user",
+                "requestBody": {}
+            }
+        },
+        "api/users/login": {
+            "post": {
+                "description": "Login a user"
+            }
+        },
+        "api/users/current": {
+            "get": {
+                "description": "Get current user"
+            },
+            "patch": {
+                "description": "Update a user"
+            }
+        },
+        "api/users/logout": {
+            "delete": {
+                "description": "Logout current user"
+            }
+        }
+    }
+}

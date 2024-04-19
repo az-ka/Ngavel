@@ -1,0 +1,1 @@
+import{j as o,a,H as s}from"./app.68638bcf.js";import{C as t,A as i}from"./App.959b4ad1.js";import"./ApplicationLogo.def15032.js";import"./clsx.m.256e9345.js";function d(){return o("div",{children:[a(s,{title:"Dashboard"}),a(t,{children:"Dashboard"})]})}d.layout=r=>a(i,{children:r});export{d as default};
